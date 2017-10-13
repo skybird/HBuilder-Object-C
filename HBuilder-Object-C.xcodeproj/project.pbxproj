@@ -475,7 +475,14 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_ENTITLEMENTS = "HBuilder-Object-C/HBuilder-Object-C.entitlements";
 				DEVELOPMENT_TEAM = Q4ELKS7SXW;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/HBuilder-Object-C/inc\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HBuilder-Object-C/libs\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HBuilder-Object-C/inc\"",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/HBuilder-Object-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -495,7 +502,14 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_ENTITLEMENTS = "HBuilder-Object-C/HBuilder-Object-C.entitlements";
 				DEVELOPMENT_TEAM = Q4ELKS7SXW;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/HBuilder-Object-C/inc\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HBuilder-Object-C/libs\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HBuilder-Object-C/inc\"",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/HBuilder-Object-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
